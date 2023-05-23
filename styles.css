@@ -223,3 +223,6 @@ scale: 1.15;}
 display: flex;
 }
 
+.greeting {
+text-align: center;
+}
