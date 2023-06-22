@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(36, 137, 165);
-    color: rgb(228, 228, 228);
+    background-color: hsl(193, 84%, 76%);
+    color: #86c1c5;
     margin: 05px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -64,7 +64,7 @@ border-radius: 15px;
 
 .box { 
 align-content: center;
-color: black;
+color: rgb(69, 72, 72);
 display: flex;
 flex-wrap: wrap;
 }
@@ -89,7 +89,8 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     display: flex;
     padding: 10px;
     height: 50px;
-    background-color: black;
+    background-color: rgb(69, 72, 72);
+    border-radius: 05px;
   }
   
   
@@ -198,31 +199,53 @@ justify-content: center;
 flex-wrap: wrap;
 }
 
-footer {
-flex: 1;
-flex-wrap: wrap;
 
-border:  solid whitesmoke;
-margin: 10%;
-padding: 3%;
-align-items: center;
-}
+ footer {
+                background-color: rgb(69, 72, 72);
+                color: whitesmoke;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 15px;
+                align-content: center;
+                text-align: center;
+                border-radius: 5px;
+              }
 
-.Servicios li {
-border: solid whitesmoke;
-display: flex;
-padding: 01%;
-margin: auto;
-background-color: brown;
-max-width: 20%;
-}
+ button[type="submit"] {
+                background-color: #007bff;
+                color: white;
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+              }
+  button[onClick="ShowAlert()"] {
+                background-color: #007bff;
+                color: white;
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                margin-bottom: 5px;
+              }
 
-.Servicios li:hover {
-scale: 1.15;}
-.Servicios {
-display: flex;
-}
+  button[onClick="mostrar()"] {
+                background-color: #007bff;
+                color: white;
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                margin-bottom: 5px;
+              }
 
-.greeting {
-text-align: center;
-}
+              
+              .Servicios li:hover {
+                scale: 1.15;}
+                .Servicios {
+                display: flex;
+                }
+                iframe {border-radius: 5px;
+                }
